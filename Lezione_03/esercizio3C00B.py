@@ -24,4 +24,13 @@ Inserire nome: Alex
 Inserire gender. Digitare m per maschio e f per femmina: x
 Mi dispiace Alex, non e' possibile procedere con la generazione di un documento di identità!
  '''
-name: str
+name: str = input("Inserire nome: ")
+gender: str = input("Inserire gender. Digitare \"m\" per maschio e \"f\" per femmina: ")
+
+match gender:
+    case  "m":
+        print(f"Nome: {name}\nGender: Maschio")
+    case  "f":
+        print(f"Nome: {name}\nGender: Femmina")
+    case _:
+        print(f"Mi dispiace {name}, non è possibile procedere con la generazione di un documento di identità!")
