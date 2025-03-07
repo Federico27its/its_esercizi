@@ -10,8 +10,7 @@ while True:
         break
 
 fattoriale: int = 1
-i : int = 1
-while i !=  n+1:
+for i in range(1, n+1):
     fattoriale *= i
-    i += 1
+
 print(f"{n} fattoriale è uguale a: {fattoriale}")
