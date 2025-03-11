@@ -11,4 +11,4 @@ def make_car(manufacter:str, model:str, **kwargs) -> dict[str: Any]:
         d[key] = value
     return d
 
-print(make_car('subaru', 'outback', color='blue', tow_package=True))
+print(make_car('subaru', 'outback', color='blue', two_package=True))
