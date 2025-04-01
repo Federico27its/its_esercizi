@@ -1,0 +1,29 @@
+Requisiti ordini e fatture:
+
+1) dipartimenti aziendali:
+	-nome
+	-indirizzo
+	-direttore
+2) direttori dipartimenti:
+	-nome
+	-cognome
+	-codice fiscale
+	-data di nascita
+	-luogo di nascita
+	-anni di servizio in azienda
+3) fornitori:
+	-contratto con dipartimento
+	-regione sociale(nome ditta)
+	-partita iva (stringa numerica di 11 cifre)
+	-indirrizzo
+	-numero di telefono
+	-indirizzo mail
+4) ordini beni e servizi:
+	-dipartimento che lo ha stipulato
+	-data di stipula
+	-fornitore
+	-descrizione beni/servizi acquistati
+	-importo disponibile
+	-aliquota iva (reale tra 0 e 1)
+	-stato dell'ordine (preparazione, inviato, da saldare, saldatro)
+5) fatture
