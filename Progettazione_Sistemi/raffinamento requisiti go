@@ -1,0 +1,24 @@
+Raffinamento requisiti go:
+
+1) Giocatori:
+	-nick-name(univoco)
+	-nome
+	-cognome
+	-indirizzo
+	-rank(intero+)
+
+2) Partita:
+	-due giocatori
+	-data
+	-luogo
+	-regole (giapponesi o cinesi)
+	-giocatore con pietre bianche
+	-giocatoe con pietre nere
+	-fatto deficit komi(reale>=0 compreso tra 0 e 10)
+	-esito (rinuncia di uno dei giocatori, coppia di punteggi non negativi)
+	
+3) Torneo:
+	-partite
+	-nome
+	-descrizione testuale
+	-edizione (anno in cui si svolge)
