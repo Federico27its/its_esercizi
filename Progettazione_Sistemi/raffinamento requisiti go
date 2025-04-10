@@ -14,7 +14,7 @@ Raffinamento requisiti go:
 	-regole (giapponesi o cinesi)
 	-giocatore con pietre bianche
 	-giocatoe con pietre nere
-	-fatto deficit komi(reale>=0 compreso tra 0 e 10)
+	-fattore deficit komi(reale>=0 compreso tra 0 e 10)
 	-esito (rinuncia di uno dei giocatori, coppia di punteggi non negativi)
 	
 3) Torneo:
