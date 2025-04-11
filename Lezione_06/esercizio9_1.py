@@ -14,7 +14,7 @@ class Restaurant:
         print(f"restaurant name: {self.name}\ncuisine type: {self.cuisine_type}")
 
     def open_restaurant(self):
-        print("the restaurant is open :D :D :D")
+        print("the restaurant is opened :D :D :D")
 
 r: Restaurant = Restaurant("Da Gigione", "giapponese")
 print(r.name, r.cuisine_type)
