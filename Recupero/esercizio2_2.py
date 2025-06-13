@@ -1,4 +1,3 @@
-
 '''2) Scrivi una funzione che moltiplica tutti i numeri interi di una lista che sono minori di un
 dato valore intero definito threshold.'''
 

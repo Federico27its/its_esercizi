@@ -11,3 +11,5 @@ def classifica_numeri(l: list):
         elif n < 0:
             d["negativi"].append(n)
     return d
+
+print(classifica_numeri([-1, -232, 2323, -2323, 2, 4]))
